@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Samples", "Unity.2D.PixelPerfect.Samples.csproj", "{36c2b28f-a4a6-0990-379d-ad981c275548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2cf7c521-3436-07bb-a266-82dd50708a5c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Samples.Editor", "Unity.2D.PixelPerfect.Samples.Editor.csproj", "{d2d7fb64-f712-0b0e-88f5-7b3ee60b8d43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36c2b28f-a4a6-0990-379d-ad981c275548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36c2b28f-a4a6-0990-379d-ad981c275548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2cf7c521-3436-07bb-a266-82dd50708a5c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2cf7c521-3436-07bb-a266-82dd50708a5c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d2d7fb64-f712-0b0e-88f5-7b3ee60b8d43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d2d7fb64-f712-0b0e-88f5-7b3ee60b8d43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

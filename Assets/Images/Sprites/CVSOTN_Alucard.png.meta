@@ -1,0 +1,5984 @@
+fileFormatVersion: 2
+guid: 747403559e6c2f04195a884d3ea1186e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6658883927379351271
+    second: CVSOTN_Alucard_0
+  - first:
+      213: -4483539136244901911
+    second: CVSOTN_Alucard_1
+  - first:
+      213: -1909375300526260372
+    second: CVSOTN_Alucard_2
+  - first:
+      213: 6143325764015156140
+    second: CVSOTN_Alucard_3
+  - first:
+      213: 944113085032892738
+    second: CVSOTN_Alucard_4
+  - first:
+      213: 4909831875663013248
+    second: CVSOTN_Alucard_5
+  - first:
+      213: 8542800803468138413
+    second: CVSOTN_Alucard_6
+  - first:
+      213: -8729427513949394871
+    second: CVSOTN_Alucard_7
+  - first:
+      213: -7002558862711776959
+    second: CVSOTN_Alucard_8
+  - first:
+      213: -8313660763398271916
+    second: CVSOTN_Alucard_9
+  - first:
+      213: -2626202307480101797
+    second: CVSOTN_Alucard_10
+  - first:
+      213: -8246821047992208489
+    second: CVSOTN_Alucard_11
+  - first:
+      213: 4838830527986380968
+    second: CVSOTN_Alucard_12
+  - first:
+      213: -3313188746668797098
+    second: CVSOTN_Alucard_13
+  - first:
+      213: -8048691687415045498
+    second: CVSOTN_Alucard_14
+  - first:
+      213: -9181052123827936657
+    second: CVSOTN_Alucard_15
+  - first:
+      213: -8323850028864276382
+    second: CVSOTN_Alucard_16
+  - first:
+      213: 4000754642596970047
+    second: CVSOTN_Alucard_17
+  - first:
+      213: -7196593137428055980
+    second: CVSOTN_Alucard_18
+  - first:
+      213: -4617743732592601606
+    second: CVSOTN_Alucard_19
+  - first:
+      213: -4957716877042302644
+    second: CVSOTN_Alucard_20
+  - first:
+      213: -6936975175459437978
+    second: CVSOTN_Alucard_21
+  - first:
+      213: 3769164441795986286
+    second: CVSOTN_Alucard_22
+  - first:
+      213: 1642284467518253980
+    second: CVSOTN_Alucard_23
+  - first:
+      213: 2021835257600804657
+    second: CVSOTN_Alucard_24
+  - first:
+      213: -7759101551307331851
+    second: CVSOTN_Alucard_25
+  - first:
+      213: 632334304556398563
+    second: CVSOTN_Alucard_26
+  - first:
+      213: 8005607571526110921
+    second: CVSOTN_Alucard_27
+  - first:
+      213: -6729228847869337332
+    second: CVSOTN_Alucard_28
+  - first:
+      213: -6399716649125464735
+    second: CVSOTN_Alucard_29
+  - first:
+      213: 4425311483875139005
+    second: CVSOTN_Alucard_30
+  - first:
+      213: 2103122033647809081
+    second: CVSOTN_Alucard_31
+  - first:
+      213: 8571845337198284032
+    second: CVSOTN_Alucard_32
+  - first:
+      213: -816446106901549227
+    second: CVSOTN_Alucard_33
+  - first:
+      213: -3054136519051603109
+    second: CVSOTN_Alucard_34
+  - first:
+      213: -6084177780523083854
+    second: CVSOTN_Alucard_35
+  - first:
+      213: 121020453534382696
+    second: CVSOTN_Alucard_36
+  - first:
+      213: -310196591309854309
+    second: CVSOTN_Alucard_37
+  - first:
+      213: 5129991753888593370
+    second: CVSOTN_Alucard_38
+  - first:
+      213: 3626486187941533066
+    second: CVSOTN_Alucard_39
+  - first:
+      213: -2997989804075189098
+    second: CVSOTN_Alucard_40
+  - first:
+      213: 3345532171981444426
+    second: CVSOTN_Alucard_41
+  - first:
+      213: 1711985522091670694
+    second: CVSOTN_Alucard_42
+  - first:
+      213: -4688908636387610623
+    second: CVSOTN_Alucard_43
+  - first:
+      213: 2354005958341226894
+    second: CVSOTN_Alucard_44
+  - first:
+      213: 7320153199300231784
+    second: CVSOTN_Alucard_45
+  - first:
+      213: -485048026094820872
+    second: CVSOTN_Alucard_46
+  - first:
+      213: -7153542537138453855
+    second: CVSOTN_Alucard_47
+  - first:
+      213: -3687301039707440783
+    second: CVSOTN_Alucard_48
+  - first:
+      213: 7464302744902093612
+    second: CVSOTN_Alucard_49
+  - first:
+      213: -4705963106586887474
+    second: CVSOTN_Alucard_50
+  - first:
+      213: -1041497957371498902
+    second: CVSOTN_Alucard_51
+  - first:
+      213: 2923135636470614640
+    second: CVSOTN_Alucard_52
+  - first:
+      213: 8340785953457985492
+    second: CVSOTN_Alucard_53
+  - first:
+      213: -8997850170388493246
+    second: CVSOTN_Alucard_54
+  - first:
+      213: -2612593678522999324
+    second: CVSOTN_Alucard_55
+  - first:
+      213: -4105695928705641556
+    second: CVSOTN_Alucard_56
+  - first:
+      213: 622802418187056564
+    second: CVSOTN_Alucard_57
+  - first:
+      213: -7712746265193621168
+    second: CVSOTN_Alucard_58
+  - first:
+      213: -2433236064237301574
+    second: CVSOTN_Alucard_59
+  - first:
+      213: 3411238089609835703
+    second: CVSOTN_Alucard_60
+  - first:
+      213: -2647851060244701121
+    second: CVSOTN_Alucard_61
+  - first:
+      213: 2548171387742306201
+    second: CVSOTN_Alucard_62
+  - first:
+      213: 3033325394786424330
+    second: CVSOTN_Alucard_63
+  - first:
+      213: -8584724991429538534
+    second: CVSOTN_Alucard_64
+  - first:
+      213: 9019517800735072315
+    second: CVSOTN_Alucard_65
+  - first:
+      213: 1241556861402631134
+    second: CVSOTN_Alucard_66
+  - first:
+      213: 19926326049838648
+    second: CVSOTN_Alucard_67
+  - first:
+      213: 4457720966759858840
+    second: CVSOTN_Alucard_68
+  - first:
+      213: -8766778748131145335
+    second: CVSOTN_Alucard_69
+  - first:
+      213: -5017174512502192894
+    second: CVSOTN_Alucard_70
+  - first:
+      213: 891138669247110784
+    second: CVSOTN_Alucard_71
+  - first:
+      213: -4414405351811474549
+    second: CVSOTN_Alucard_72
+  - first:
+      213: 3797269450974648346
+    second: CVSOTN_Alucard_73
+  - first:
+      213: 2656778893981326479
+    second: CVSOTN_Alucard_74
+  - first:
+      213: -7990940974915467783
+    second: CVSOTN_Alucard_75
+  - first:
+      213: 7743039630418160615
+    second: CVSOTN_Alucard_76
+  - first:
+      213: 5757666490643742475
+    second: CVSOTN_Alucard_77
+  - first:
+      213: 9221749932833851828
+    second: CVSOTN_Alucard_78
+  - first:
+      213: 7418267915721864584
+    second: CVSOTN_Alucard_79
+  - first:
+      213: 787419713327340872
+    second: CVSOTN_Alucard_80
+  - first:
+      213: 3211213308945730677
+    second: CVSOTN_Alucard_81
+  - first:
+      213: 3727097399507223189
+    second: CVSOTN_Alucard_82
+  - first:
+      213: 5822271579338488320
+    second: CVSOTN_Alucard_83
+  - first:
+      213: 5129783141355381569
+    second: CVSOTN_Alucard_84
+  - first:
+      213: 2669277462963371466
+    second: CVSOTN_Alucard_85
+  - first:
+      213: 8443384396109791185
+    second: CVSOTN_Alucard_86
+  - first:
+      213: 5284227500396254215
+    second: CVSOTN_Alucard_87
+  - first:
+      213: -8730043269817431006
+    second: CVSOTN_Alucard_88
+  - first:
+      213: 1298991846861479199
+    second: CVSOTN_Alucard_89
+  - first:
+      213: -5493180416015976567
+    second: CVSOTN_Alucard_90
+  - first:
+      213: -8741161029726444322
+    second: CVSOTN_Alucard_91
+  - first:
+      213: 7197572850586404118
+    second: CVSOTN_Alucard_92
+  - first:
+      213: -4085658426421720501
+    second: CVSOTN_Alucard_93
+  - first:
+      213: -4024148406837148835
+    second: CVSOTN_Alucard_94
+  - first:
+      213: 1024837523064321398
+    second: CVSOTN_Alucard_95
+  - first:
+      213: 3442653011296306383
+    second: CVSOTN_Alucard_96
+  - first:
+      213: -7479954139570857606
+    second: CVSOTN_Alucard_97
+  - first:
+      213: -7412023941353681049
+    second: CVSOTN_Alucard_98
+  - first:
+      213: -3309222679319658158
+    second: CVSOTN_Alucard_99
+  - first:
+      213: 3939089051389401074
+    second: CVSOTN_Alucard_100
+  - first:
+      213: -742025731708800244
+    second: CVSOTN_Alucard_101
+  - first:
+      213: 4371493919184165320
+    second: CVSOTN_Alucard_102
+  - first:
+      213: -1016495756246304230
+    second: CVSOTN_Alucard_103
+  - first:
+      213: 7231648191522210777
+    second: CVSOTN_Alucard_104
+  - first:
+      213: -1544853996594998655
+    second: CVSOTN_Alucard_105
+  - first:
+      213: -7103180463549668990
+    second: CVSOTN_Alucard_106
+  - first:
+      213: -8627950401896979187
+    second: CVSOTN_Alucard_107
+  - first:
+      213: 1373381053065489884
+    second: CVSOTN_Alucard_108
+  - first:
+      213: -6956410453698293421
+    second: CVSOTN_Alucard_109
+  - first:
+      213: -5793843709346015484
+    second: CVSOTN_Alucard_110
+  - first:
+      213: 1915546265216670195
+    second: CVSOTN_Alucard_111
+  - first:
+      213: -4339594693733140382
+    second: CVSOTN_Alucard_112
+  - first:
+      213: 4475993117504230061
+    second: CVSOTN_Alucard_113
+  - first:
+      213: 9129377012698972245
+    second: CVSOTN_Alucard_114
+  - first:
+      213: 4751501769651274794
+    second: CVSOTN_Alucard_115
+  - first:
+      213: 8078265559067729051
+    second: CVSOTN_Alucard_116
+  - first:
+      213: -6041910937997348197
+    second: CVSOTN_Alucard_117
+  - first:
+      213: -8897495793428862114
+    second: CVSOTN_Alucard_118
+  - first:
+      213: -6168910552076333715
+    second: CVSOTN_Alucard_119
+  - first:
+      213: 8188291135579130724
+    second: CVSOTN_Alucard_120
+  - first:
+      213: 186945346410493149
+    second: CVSOTN_Alucard_121
+  - first:
+      213: 1098825807968102969
+    second: CVSOTN_Alucard_122
+  - first:
+      213: -6102505515897432364
+    second: CVSOTN_Alucard_123
+  - first:
+      213: 2905337701222723134
+    second: CVSOTN_Alucard_124
+  - first:
+      213: -2940956598890593093
+    second: CVSOTN_Alucard_125
+  - first:
+      213: -8443623604856722119
+    second: CVSOTN_Alucard_126
+  - first:
+      213: 2680445211506974378
+    second: CVSOTN_Alucard_127
+  - first:
+      213: -7536998552131412253
+    second: CVSOTN_Alucard_128
+  - first:
+      213: -103168954755234799
+    second: CVSOTN_Alucard_129
+  - first:
+      213: 1436153141670885402
+    second: CVSOTN_Alucard_130
+  - first:
+      213: 5688242758153636174
+    second: CVSOTN_Alucard_131
+  - first:
+      213: -9063066947858167834
+    second: CVSOTN_Alucard_132
+  - first:
+      213: 7398112337820194072
+    second: CVSOTN_Alucard_133
+  - first:
+      213: -7807965935962887321
+    second: CVSOTN_Alucard_134
+  - first:
+      213: 7763257097974528707
+    second: CVSOTN_Alucard_135
+  - first:
+      213: 3173872078311755064
+    second: CVSOTN_Alucard_136
+  - first:
+      213: -9211557477983768341
+    second: CVSOTN_Alucard_137
+  - first:
+      213: 3657372579583888859
+    second: CVSOTN_Alucard_138
+  - first:
+      213: -8449056684933911495
+    second: CVSOTN_Alucard_139
+  - first:
+      213: 4202272712300357917
+    second: CVSOTN_Alucard_140
+  - first:
+      213: 388801147709115677
+    second: CVSOTN_Alucard_141
+  - first:
+      213: 4343230993212795597
+    second: CVSOTN_Alucard_142
+  - first:
+      213: 6441464574579990438
+    second: CVSOTN_Alucard_143
+  - first:
+      213: -3071563180056235979
+    second: CVSOTN_Alucard_144
+  - first:
+      213: -4325570219137270525
+    second: CVSOTN_Alucard_145
+  - first:
+      213: -1086222934416575574
+    second: CVSOTN_Alucard_146
+  - first:
+      213: -4978111746768351946
+    second: CVSOTN_Alucard_147
+  - first:
+      213: 6797552087754002856
+    second: CVSOTN_Alucard_148
+  - first:
+      213: -267009064232913293
+    second: CVSOTN_Alucard_149
+  - first:
+      213: -739505407188575357
+    second: CVSOTN_Alucard_150
+  - first:
+      213: -7074209477854558783
+    second: CVSOTN_Alucard_151
+  - first:
+      213: -1465611707588456621
+    second: CVSOTN_Alucard_152
+  - first:
+      213: 2448447808854617284
+    second: CVSOTN_Alucard_153
+  - first:
+      213: -2836561821255520412
+    second: CVSOTN_Alucard_154
+  - first:
+      213: 739784956871516725
+    second: CVSOTN_Alucard_155
+  - first:
+      213: 3764255797819497113
+    second: CVSOTN_Alucard_156
+  - first:
+      213: -1822377891831832978
+    second: CVSOTN_Alucard_157
+  - first:
+      213: 9214667047932319085
+    second: CVSOTN_Alucard_158
+  - first:
+      213: 7948189645961517244
+    second: CVSOTN_Alucard_159
+  - first:
+      213: 4087597945594339486
+    second: CVSOTN_Alucard_160
+  - first:
+      213: -4049608587127020095
+    second: CVSOTN_Alucard_161
+  - first:
+      213: 754024252148547907
+    second: CVSOTN_Alucard_162
+  - first:
+      213: 6699032419621644027
+    second: CVSOTN_Alucard_163
+  - first:
+      213: -6556108412278508633
+    second: CVSOTN_Alucard_164
+  - first:
+      213: 8754740556304481658
+    second: CVSOTN_Alucard_165
+  - first:
+      213: 8852302180511531537
+    second: CVSOTN_Alucard_166
+  - first:
+      213: -4417857787961701842
+    second: CVSOTN_Alucard_167
+  - first:
+      213: -1541039234425107085
+    second: CVSOTN_Alucard_168
+  - first:
+      213: -5714916238259188211
+    second: CVSOTN_Alucard_169
+  - first:
+      213: -5000049374170947411
+    second: CVSOTN_Alucard_170
+  - first:
+      213: 5086096459046053797
+    second: CVSOTN_Alucard_171
+  - first:
+      213: 2107206218765846999
+    second: CVSOTN_Alucard_172
+  - first:
+      213: -3915902219181196171
+    second: CVSOTN_Alucard_173
+  - first:
+      213: 2379036366928232027
+    second: CVSOTN_Alucard_174
+  - first:
+      213: -3884477207704803043
+    second: CVSOTN_Alucard_175
+  - first:
+      213: -3552727272523387146
+    second: CVSOTN_Alucard_176
+  - first:
+      213: 4167034183139151182
+    second: CVSOTN_Alucard_177
+  - first:
+      213: -8113911547283444688
+    second: CVSOTN_Alucard_178
+  - first:
+      213: 7887280461144887241
+    second: CVSOTN_Alucard_179
+  - first:
+      213: 117646403487723525
+    second: CVSOTN_Alucard_180
+  - first:
+      213: 7007405304682906428
+    second: CVSOTN_Alucard_181
+  - first:
+      213: 2039091346309032052
+    second: CVSOTN_Alucard_182
+  - first:
+      213: 4510038000306207551
+    second: CVSOTN_Alucard_183
+  - first:
+      213: -3913238730855421010
+    second: CVSOTN_Alucard_184
+  - first:
+      213: -3044184468232515829
+    second: CVSOTN_Alucard_185
+  - first:
+      213: -7982424504444187859
+    second: CVSOTN_Alucard_186
+  - first:
+      213: 4916131723363639522
+    second: CVSOTN_Alucard_187
+  - first:
+      213: -3085115811672195026
+    second: CVSOTN_Alucard_188
+  - first:
+      213: -8054558090215791402
+    second: CVSOTN_Alucard_189
+  - first:
+      213: 480608137129657902
+    second: CVSOTN_Alucard_190
+  - first:
+      213: 1874908145978189979
+    second: CVSOTN_Alucard_191
+  - first:
+      213: -2433992151156627996
+    second: CVSOTN_Alucard_192
+  - first:
+      213: 587228839497723483
+    second: CVSOTN_Alucard_193
+  - first:
+      213: 2856183816388508083
+    second: CVSOTN_Alucard_194
+  - first:
+      213: -6306930275004736901
+    second: CVSOTN_Alucard_195
+  - first:
+      213: -8287825417407138312
+    second: CVSOTN_Alucard_196
+  - first:
+      213: -3520205814770497018
+    second: CVSOTN_Alucard_197
+  - first:
+      213: -7039538728563796651
+    second: CVSOTN_Alucard_198
+  - first:
+      213: 9158308857034050729
+    second: CVSOTN_Alucard_199
+  - first:
+      213: -1745066993369813628
+    second: CVSOTN_Alucard_200
+  - first:
+      213: 1450109639268283573
+    second: CVSOTN_Alucard_201
+  - first:
+      213: -3359375304420039856
+    second: CVSOTN_Alucard_202
+  - first:
+      213: 7008982860806460973
+    second: CVSOTN_Alucard_203
+  - first:
+      213: -6009379680026266884
+    second: CVSOTN_Alucard_204
+  - first:
+      213: -7497670645629261496
+    second: CVSOTN_Alucard_205
+  - first:
+      213: -6776986876493762628
+    second: CVSOTN_Alucard_206
+  - first:
+      213: -5177675983882972854
+    second: CVSOTN_Alucard_207
+  - first:
+      213: -5986542930930582339
+    second: CVSOTN_Alucard_208
+  - first:
+      213: -2295402579443164825
+    second: CVSOTN_Alucard_209
+  - first:
+      213: -8024679589567902172
+    second: CVSOTN_Alucard_210
+  - first:
+      213: 589363637701033678
+    second: CVSOTN_Alucard_211
+  - first:
+      213: -7474937373756025262
+    second: CVSOTN_Alucard_212
+  - first:
+      213: 4143143379410689993
+    second: CVSOTN_Alucard_213
+  - first:
+      213: 5998987415432189582
+    second: CVSOTN_Alucard_214
+  - first:
+      213: 3596339680762731875
+    second: CVSOTN_Alucard_215
+  - first:
+      213: 6398618994269625561
+    second: CVSOTN_Alucard_216
+  - first:
+      213: 3286049195772502227
+    second: CVSOTN_Alucard_217
+  - first:
+      213: -8130258767396791321
+    second: CVSOTN_Alucard_218
+  - first:
+      213: -5816218849973005801
+    second: CVSOTN_Alucard_219
+  - first:
+      213: 6191328140035957211
+    second: CVSOTN_Alucard_220
+  - first:
+      213: 6184080218756167251
+    second: CVSOTN_Alucard_221
+  - first:
+      213: 2933066581817751207
+    second: CVSOTN_Alucard_222
+  - first:
+      213: 8040237526109042400
+    second: CVSOTN_Alucard_223
+  - first:
+      213: -6562739161641536214
+    second: CVSOTN_Alucard_224
+  - first:
+      213: -6334336310566309408
+    second: CVSOTN_Alucard_225
+  - first:
+      213: -342238966329708742
+    second: CVSOTN_Alucard_226
+  - first:
+      213: -7903877974687924542
+    second: CVSOTN_Alucard_227
+  - first:
+      213: -8100273013297191030
+    second: CVSOTN_Alucard_228
+  - first:
+      213: -3877700835543257458
+    second: CVSOTN_Alucard_229
+  - first:
+      213: -8096592806379539676
+    second: CVSOTN_Alucard_230
+  - first:
+      213: -418107712768930100
+    second: CVSOTN_Alucard_231
+  - first:
+      213: -8422939451358137528
+    second: CVSOTN_Alucard_232
+  - first:
+      213: -5670997436398192335
+    second: CVSOTN_Alucard_233
+  - first:
+      213: 5847903867492201766
+    second: CVSOTN_Alucard_234
+  - first:
+      213: 6341414836448688223
+    second: CVSOTN_Alucard_235
+  - first:
+      213: -5077722248140111957
+    second: CVSOTN_Alucard_236
+  - first:
+      213: -2948759243307696069
+    second: CVSOTN_Alucard_237
+  - first:
+      213: 8921526970261767219
+    second: CVSOTN_Alucard_238
+  - first:
+      213: -199714215116426997
+    second: CVSOTN_Alucard_239
+  - first:
+      213: -8903697537369602396
+    second: CVSOTN_Alucard_240
+  - first:
+      213: -3203417332419202034
+    second: CVSOTN_Alucard_241
+  - first:
+      213: 1810341096371098659
+    second: CVSOTN_Alucard_242
+  - first:
+      213: -6402829214039758101
+    second: CVSOTN_Alucard_243
+  - first:
+      213: -8269105464681264409
+    second: CVSOTN_Alucard_244
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_0
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1996
+        width: 25
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919eefb2954e693a0800000000000000
+      internalID: -6658883927379351271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1944
+        width: 46
+        height: 47
+      alignment: 9
+      pivot: {x: 0.7507598, y: 0.000005194481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e79f8f09e447c1c0800000000000000
+      internalID: -4483539136244901911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1944
+        width: 47
+        height: 41
+      alignment: 9
+      pivot: {x: 0.61702126, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f3a3dc7498085e0800000000000000
+      internalID: -1909375300526260372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1944
+        width: 44
+        height: 41
+      alignment: 9
+      pivot: {x: 0.6136364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabe0afcb3a714550800000000000000
+      internalID: 6143325764015156140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1944
+        width: 43
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5813953, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2490f2549d92a1d00800000000000000
+      internalID: 944113085032892738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1944
+        width: 45
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085a8c7d31a332440800000000000000
+      internalID: 4909831875663013248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1944
+        width: 45
+        height: 37
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7d3ada1102e8670800000000000000
+      internalID: 8542800803468138413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1944
+        width: 45
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94866823de7dad680800000000000000
+      internalID: -8729427513949394871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_8
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1944
+        width: 44
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5909091, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1491d45c0d9e1de90800000000000000
+      internalID: -7002558862711776959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1944
+        width: 43
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5813953, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c0b865591ff9c80800000000000000
+      internalID: -8313660763398271916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1944
+        width: 42
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c56526aeadd8bd0800000000000000
+      internalID: -2626202307480101797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1944
+        width: 40
+        height: 26
+      alignment: 9
+      pivot: {x: 0.575, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793b53c43f76d8d80800000000000000
+      internalID: -8246821047992208489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_12
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1944
+        width: 39
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5641026, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0b1fc5abaf62340800000000000000
+      internalID: 4838830527986380968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_13
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1944
+        width: 37
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5405406, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6531cf093603502d0800000000000000
+      internalID: -3313188746668797098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1944
+        width: 30
+        height: 26
+      alignment: 9
+      pivot: {x: 0.43333337, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682acf8dd8d4d4090800000000000000
+      internalID: -8048691687415045498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1892
+        width: 28
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5714286, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62e3e69cb9569080800000000000000
+      internalID: -9181052123827936657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1892
+        width: 26
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5769231, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2687be9108ebb7c80800000000000000
+      internalID: -8323850028864276382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_17
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1892
+        width: 20
+        height: 46
+      alignment: 9
+      pivot: {x: 0.65000004, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ebc798629858730800000000000000
+      internalID: 4000754642596970047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_18
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1840
+        width: 25
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4583692bba0902c90800000000000000
+      internalID: -7196593137428055980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_19
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1840
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af518038a8a7aefb0800000000000000
+      internalID: -4617743732592601606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1840
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c414fe674c6a23bb0800000000000000
+      internalID: -4957716877042302644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_21
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1840
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6628903e4d9eabf90800000000000000
+      internalID: -6936975175459437978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1840
+        width: 25
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6388450713ce4430800000000000000
+      internalID: 3769164441795986286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_23
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1840
+        width: 25
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b2192a5019ac610800000000000000
+      internalID: 1642284467518253980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_24
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1840
+        width: 24
+        height: 47
+      alignment: 9
+      pivot: {x: 0.45833334, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13708a364700f0c10800000000000000
+      internalID: 2021835257600804657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1784
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6e422af32225490800000000000000
+      internalID: -7759101551307331851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_26
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1784
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7b06223b086c800800000000000000
+      internalID: 632334304556398563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1784
+        width: 27
+        height: 44
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cecdf7bba1a91f60800000000000000
+      internalID: 8005607571526110921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1784
+        width: 33
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01ef6e040afc92a0800000000000000
+      internalID: -6729228847869337332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_29
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1784
+        width: 43
+        height: 44
+      alignment: 9
+      pivot: {x: 0.627907, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16539b16d93af27a0800000000000000
+      internalID: -6399716649125464735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1784
+        width: 44
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6363636, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd95d8295dd96d30800000000000000
+      internalID: 4425311483875139005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_31
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1784
+        width: 44
+        height: 46
+      alignment: 9
+      pivot: {x: 0.6136364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932ffd6c85acf2d10800000000000000
+      internalID: 2103122033647809081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_32
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1784
+        width: 45
+        height: 47
+      alignment: 9
+      pivot: {x: 0.62222224, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dca492bef45f670800000000000000
+      internalID: 8571845337198284032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_33
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1784
+        width: 46
+        height: 48
+      alignment: 9
+      pivot: {x: 0.6304348, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fe1eb67966ba4f0800000000000000
+      internalID: -816446106901549227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1784
+        width: 48
+        height: 49
+      alignment: 9
+      pivot: {x: 0.6458334, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53916674078d95d0800000000000000
+      internalID: -3054136519051603109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_35
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1784
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.67346936, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7d8914b88a09ba0800000000000000
+      internalID: -6084177780523083854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_36
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1784
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.68, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a39771673fda100800000000000000
+      internalID: 121020453534382696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_37
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1784
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.68, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99607cf7d5f1bbf0800000000000000
+      internalID: -310196591309854309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_38
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1784
+        width: 48
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6875, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5763ff154613740800000000000000
+      internalID: 5129991753888593370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_39
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1784
+        width: 44
+        height: 49
+      alignment: 9
+      pivot: {x: 0.65909094, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a859d1759fdd35230800000000000000
+      internalID: 3626486187941533066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_40
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1728
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cfadf38200566d0800000000000000
+      internalID: -2997989804075189098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_41
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1728
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a455897f8c7bd6e20800000000000000
+      internalID: 3345532171981444426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1728
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.54838705, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acb2e803c132c710800000000000000
+      internalID: 1711985522091670694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_43
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1728
+        width: 31
+        height: 46
+      alignment: 9
+      pivot: {x: 0.516129, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100fad72076adeeb0800000000000000
+      internalID: -4688908636387610623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1728
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81f41272fb1ba020800000000000000
+      internalID: 2354005958341226894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_45
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1728
+        width: 30
+        height: 43
+      alignment: 9
+      pivot: {x: 0.4666667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862cab90d88669560800000000000000
+      internalID: 7320153199300231784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_46
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1728
+        width: 29
+        height: 43
+      alignment: 9
+      pivot: {x: 0.44827586, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f12d91e363c449f0800000000000000
+      internalID: -485048026094820872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_47
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1728
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2473ca6f289bc90800000000000000
+      internalID: -7153542537138453855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1728
+        width: 29
+        height: 46
+      alignment: 9
+      pivot: {x: 0.51724136, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1793f449d3314dcc0800000000000000
+      internalID: -3687301039707440783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_49
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1728
+        width: 36
+        height: 46
+      alignment: 9
+      pivot: {x: 0.6111111, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bccd58cc7869760800000000000000
+      internalID: 7464302744902093612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_50
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1728
+        width: 41
+        height: 46
+      alignment: 9
+      pivot: {x: 0.65853655, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca7bc1ec7f01beb0800000000000000
+      internalID: -4705963106586887474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_51
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1728
+        width: 39
+        height: 46
+      alignment: 9
+      pivot: {x: 0.64102566, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ea398302bdb81f0800000000000000
+      internalID: -1041497957371498902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_52
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1728
+        width: 41
+        height: 45
+      alignment: 9
+      pivot: {x: 0.65853655, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07acd1abf50119820800000000000000
+      internalID: 2923135636470614640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_53
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1728
+        width: 39
+        height: 45
+      alignment: 9
+      pivot: {x: 0.64102566, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d75e6f12ac60c370800000000000000
+      internalID: 8340785953457985492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_54
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1728
+        width: 41
+        height: 44
+      alignment: 9
+      pivot: {x: 0.58536583, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c4ec351f6312380800000000000000
+      internalID: -8997850170388493246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_55
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1728
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.6216216, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed943934e33ebbd0800000000000000
+      internalID: -2612593678522999324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_56
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1672
+        width: 26
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca39bb54e43a507c0800000000000000
+      internalID: -4105695928705641556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_57
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1672
+        width: 27
+        height: 46
+      alignment: 9
+      pivot: {x: 0.2962963, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b53b45ef73a4a800800000000000000
+      internalID: 622802418187056564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_58
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1672
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059d96cb222d6f490800000000000000
+      internalID: -7712746265193621168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_59
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1672
+        width: 36
+        height: 46
+      alignment: 9
+      pivot: {x: 0.47222224, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0577001b86b3ed0800000000000000
+      internalID: -2433236064237301574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_60
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1672
+        width: 43
+        height: 45
+      alignment: 9
+      pivot: {x: 0.55813956, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4f97f08f6275f20800000000000000
+      internalID: 3411238089609835703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_61
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1672
+        width: 41
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3029f75d71f04bd0800000000000000
+      internalID: -2647851060244701121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_62
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1672
+        width: 42
+        height: 47
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fb139506cec5320800000000000000
+      internalID: 2548171387742306201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_63
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1672
+        width: 43
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a069a641069881a20800000000000000
+      internalID: 3033325394786424330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_64
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1672
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d8c67aa1eecd880800000000000000
+      internalID: -8584724991429538534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_65
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1672
+        width: 38
+        height: 44
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30602ef6a3cb2d70800000000000000
+      internalID: 9019517800735072315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1616
+        width: 44
+        height: 48
+      alignment: 9
+      pivot: {x: 0.8409091, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb4a5c2365ea3110800000000000000
+      internalID: 1241556861402631134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_67
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1616
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.7948718, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83611e153eac64000800000000000000
+      internalID: 19926326049838648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_68
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1616
+        width: 36
+        height: 44
+      alignment: 9
+      pivot: {x: 0.7222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892488be9910ddd30800000000000000
+      internalID: 4457720966759858840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_69
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1616
+        width: 39
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5897436, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989033d4d25265680800000000000000
+      internalID: -8766778748131145335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_70
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1616
+        width: 43
+        height: 41
+      alignment: 9
+      pivot: {x: 0.55813956, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205c92eec5a6f5ab0800000000000000
+      internalID: -5017174512502192894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_71
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1616
+        width: 41
+        height: 42
+      alignment: 9
+      pivot: {x: 0.53658533, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e9612f5e5fd5c00800000000000000
+      internalID: 891138669247110784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_72
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1616
+        width: 40
+        height: 43
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b91b698b1ecb2c0800000000000000
+      internalID: -4414405351811474549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_73
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1616
+        width: 38
+        height: 46
+      alignment: 9
+      pivot: {x: 0.55263156, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1859c5627c92b430800000000000000
+      internalID: 3797269450974648346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_74
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1616
+        width: 38
+        height: 47
+      alignment: 9
+      pivot: {x: 0.47368422, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c138ee356ced420800000000000000
+      internalID: 2656778893981326479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_75
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1616
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5cc0965897a1190800000000000000
+      internalID: -7990940974915467783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_76
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1616
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.6296296, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eba8dcf48dc47b60800000000000000
+      internalID: 7743039630418160615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_77
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1616
+        width: 21
+        height: 48
+      alignment: 9
+      pivot: {x: 0.52380955, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f7df5fa2757ef40800000000000000
+      internalID: 5757666490643742475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_78
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1616
+        width: 19
+        height: 48
+      alignment: 9
+      pivot: {x: 0.47368422, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b94b0a74bc3aff70800000000000000
+      internalID: 9221749932833851828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_79
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1564
+        width: 38
+        height: 46
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885774d9d5bf2f660800000000000000
+      internalID: 7418267915721864584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_80
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1564
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d140eae0a7dea00800000000000000
+      internalID: 787419713327340872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_81
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1564
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5625, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c87b1ad75809c20800000000000000
+      internalID: 3211213308945730677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_82
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1564
+        width: 32
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5625, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59209ec765f49b330800000000000000
+      internalID: 3727097399507223189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_83
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1565
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4615385, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ab258572ddcc050800000000000000
+      internalID: 5822271579338488320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_84
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1564
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.44, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143664b9696a03740800000000000000
+      internalID: 5129783141355381569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_85
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1512
+        width: 41
+        height: 44
+      alignment: 9
+      pivot: {x: 0.65853655, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd33eac5bd2b0520800000000000000
+      internalID: 2669277462963371466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_86
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1512
+        width: 33
+        height: 45
+      alignment: 9
+      pivot: {x: 0.54545456, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df33309f5dec2570800000000000000
+      internalID: 8443384396109791185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_87
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1512
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.6428572, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70418712ae8555940800000000000000
+      internalID: 5284227500396254215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_88
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1512
+        width: 24
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c0ebc56e7a8d680800000000000000
+      internalID: -8730043269817431006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_89
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1512
+        width: 21
+        height: 48
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d9e4ec332f60210800000000000000
+      internalID: 1298991846861479199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_90
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1512
+        width: 20
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9873c38048d44c3b0800000000000000
+      internalID: -5493180416015976567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_91
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1512
+        width: 22
+        height: 48
+      alignment: 9
+      pivot: {x: 0.45454547, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4eaaa2b5821b680800000000000000
+      internalID: -8741161029726444322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_92
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1512
+        width: 24
+        height: 48
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615c23c8f5ae2e360800000000000000
+      internalID: 7197572850586404118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_93
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1512
+        width: 20
+        height: 48
+      alignment: 9
+      pivot: {x: 0.45000002, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a4d83de43dc47c0800000000000000
+      internalID: -4085658426421720501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_94
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1456
+        width: 24
+        height: 51
+      alignment: 9
+      pivot: {x: 0.45833334, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d538407485a5728c0800000000000000
+      internalID: -4024148406837148835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_95
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1456
+        width: 24
+        height: 51
+      alignment: 9
+      pivot: {x: 0.45833334, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6757db22c44f83e00800000000000000
+      internalID: 1024837523064321398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_96
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1456
+        width: 23
+        height: 51
+      alignment: 9
+      pivot: {x: 0.43478262, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4ce3f7ca2c6cf20800000000000000
+      internalID: 3442653011296306383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_97
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1456
+        width: 21
+        height: 51
+      alignment: 9
+      pivot: {x: 0.3809524, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a799aae275dd13890800000000000000
+      internalID: -7479954139570857606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_98
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1456
+        width: 22
+        height: 50
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f4ce4fe73332990800000000000000
+      internalID: -7412023941353681049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_99
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1456
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.59375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514c7491874312d0800000000000000
+      internalID: -3309222679319658158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_100
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1456
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6086957, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f712be3f947aa630800000000000000
+      internalID: 3939089051389401074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_101
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1456
+        width: 44
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5909091, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c033c47478bc3b5f0800000000000000
+      internalID: -742025731708800244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_102
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1401
+        width: 20
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c990ceee8aaaac30800000000000000
+      internalID: 4371493919184165320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_103
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1401
+        width: 20
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a3f3dce7ea4e1f0800000000000000
+      internalID: -1016495756246304230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_104
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1401
+        width: 19
+        height: 51
+      alignment: 9
+      pivot: {x: 0.42105263, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3074c17b9fb5460800000000000000
+      internalID: 7231648191522210777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_105
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1401
+        width: 45
+        height: 47
+      alignment: 9
+      pivot: {x: 0.6888889, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182dc1f99739f8ae0800000000000000
+      internalID: -1544853996594998655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_106
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1401
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.67391306, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281a0aea00f6c6d90800000000000000
+      internalID: -7103180463549668990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_107
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1401
+        width: 49
+        height: 42
+      alignment: 9
+      pivot: {x: 0.6530612, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05ed3382dc534880800000000000000
+      internalID: -8627950401896979187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_108
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1401
+        width: 49
+        height: 41
+      alignment: 9
+      pivot: {x: 0.6530612, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd68319aca3f0310800000000000000
+      internalID: 1373381053065489884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_109
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1401
+        width: 47
+        height: 47
+      alignment: 9
+      pivot: {x: 0.63829786, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351df7b8c8dd57f90800000000000000
+      internalID: -6956410453698293421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_110
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1329
+        width: 46
+        height: 48
+      alignment: 9
+      pivot: {x: 0.6304348, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4079c4ce7d1289fa0800000000000000
+      internalID: -5793843709346015484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_111
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1329
+        width: 47
+        height: 52
+      alignment: 9
+      pivot: {x: 0.63829786, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9d011ed23659a10800000000000000
+      internalID: 1915546265216670195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_112
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1329
+        width: 48
+        height: 59
+      alignment: 9
+      pivot: {x: 0.75, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268bdd24e99a6c3c0800000000000000
+      internalID: -4339594693733140382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_113
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1329
+        width: 47
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7659574, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2dee9860ced1e30800000000000000
+      internalID: 4475993117504230061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_114
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1329
+        width: 49
+        height: 67
+      alignment: 9
+      pivot: {x: 0.7346939, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5500a86060012be70800000000000000
+      internalID: 9129377012698972245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_115
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1329
+        width: 47
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2444b95fa9b0f140800000000000000
+      internalID: 4751501769651274794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_116
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1329
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c1189b9b3cb1070800000000000000
+      internalID: 8078265559067729051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_117
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1329
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92fe186302d62ca0800000000000000
+      internalID: -6041910937997348197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_118
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1329
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5be32287beb58480800000000000000
+      internalID: -8897495793428862114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_119
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1329
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dc4548980a36aa0800000000000000
+      internalID: -6168910552076333715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_120
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1276
+        width: 20
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b8ca58767a2a170800000000000000
+      internalID: 8188291135579130724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_121
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1276
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4b5355dc9289200800000000000000
+      internalID: 186945346410493149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_122
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1276
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a68f12040df3f00800000000000000
+      internalID: 1098825807968102969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_123
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1224
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d65215d09b8f4ba0800000000000000
+      internalID: -6102505515897432364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_124
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1224
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e2ee10f35d15820800000000000000
+      internalID: 2905337701222723134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_125
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1224
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4094f1e8f9f27d0800000000000000
+      internalID: -2940956598890593093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_126
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1224
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d696f411932da80800000000000000
+      internalID: -8443623604856722119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_127
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1224
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae15cfd7bad23520800000000000000
+      internalID: 2680445211506974378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_128
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1224
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eed293efb3376790800000000000000
+      internalID: -7536998552131412253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_129
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1224
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11447fbd168719ef0800000000000000
+      internalID: -103168954755234799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_130
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1224
+        width: 37
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18ba5c5cad3ee310800000000000000
+      internalID: 1436153141670885402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_131
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1224
+        width: 40
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498fe3a6a2b0fe40800000000000000
+      internalID: 5688242758153636174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_132
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1160
+        width: 46
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7845d01a4893280800000000000000
+      internalID: -9063066947858167834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_133
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1160
+        width: 69
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815153079ff5ba660800000000000000
+      internalID: 7398112337820194072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_134
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1160
+        width: 72
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76be490895884a390800000000000000
+      internalID: -7807965935962887321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_135
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1160
+        width: 54
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca3dc8f231acbb60800000000000000
+      internalID: 7763257097974528707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_136
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1160
+        width: 52
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d8d4ed6dbdb0c20800000000000000
+      internalID: 3173872078311755064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_137
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1160
+        width: 55
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be03fa85749f92080800000000000000
+      internalID: -9211557477983768341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_138
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1160
+        width: 72
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0a59cbf891c230800000000000000
+      internalID: 3657372579583888859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_139
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1160
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cef57c5bbeeba80800000000000000
+      internalID: -8449056684933911495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_140
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1160
+        width: 49
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19eaf964c8715a30800000000000000
+      internalID: 4202272712300357917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_141
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1104
+        width: 23
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d4779759c456500800000000000000
+      internalID: 388801147709115677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_142
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1104
+        width: 23
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca6aefa391464c30800000000000000
+      internalID: 4343230993212795597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_143
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1104
+        width: 23
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af5a19f6eda46950800000000000000
+      internalID: 6441464574579990438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_144
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1104
+        width: 23
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5303493cf8d9f55d0800000000000000
+      internalID: -3071563180056235979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_145
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1104
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d7055bdcc78f3c0800000000000000
+      internalID: -4325570219137270525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_146
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1104
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3b7370ff5fce0f0800000000000000
+      internalID: -1086222934416575574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_147
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1104
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d4ca1ddb13aeab0800000000000000
+      internalID: -4978111746768351946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_148
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1104
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1daccdb91c55e50800000000000000
+      internalID: 6797552087754002856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_149
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1104
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3767696bba46b4cf0800000000000000
+      internalID: -267009064232913293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_150
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1104
+        width: 38
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5b0f00cfbcb5f0800000000000000
+      internalID: -739505407188575357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_151
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1001
+        width: 43
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c507cde5fb53dd90800000000000000
+      internalID: -7074209477854558783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_152
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1001
+        width: 38
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f4986cae919abe0800000000000000
+      internalID: -1465611707588456621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_153
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1004
+        width: 43
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccecd94f42aaf120800000000000000
+      internalID: 2448447808854617284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_154
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1004
+        width: 44
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f21a46d0282a8d0800000000000000
+      internalID: -2836561821255520412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_155
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 954
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532218caf7e344a00800000000000000
+      internalID: 739784956871516725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_156
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 948
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5cb844b25d3430800000000000000
+      internalID: 3764255797819497113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_157
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 948
+        width: 45
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e96d676fc95b6e0800000000000000
+      internalID: -1822377891831832978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_158
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 892
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65d083dbd211ef70800000000000000
+      internalID: 9214667047932319085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_159
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 892
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb859f62f54ad4e60800000000000000
+      internalID: 7948189645961517244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_160
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 892
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9064cbaca01ab830800000000000000
+      internalID: 4087597945594339486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_161
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 892
+        width: 36
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c52cec1276ecc7c0800000000000000
+      internalID: -4049608587127020095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_162
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 892
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3410855ff05d67a00800000000000000
+      internalID: 754024252148547907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_163
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 892
+        width: 49
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6af5e1e7eb7fc50800000000000000
+      internalID: 6699032419621644027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_164
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 892
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3703182260405a0800000000000000
+      internalID: -6556108412278508633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_165
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 892
+        width: 52
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dfb3fb6261f7970800000000000000
+      internalID: 8754740556304481658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_166
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 820
+        width: 37
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1124ec18ee1b9da70800000000000000
+      internalID: 8852302180511531537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_167
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 820
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a8958afbd90b2c0800000000000000
+      internalID: -4417857787961701842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_168
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 820
+        width: 107
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dc6272bf02d9ae0800000000000000
+      internalID: -1541039234425107085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_169
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 760
+        width: 41
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e0371d5f980b0b0800000000000000
+      internalID: -5714916238259188211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_170
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 709
+        width: 47
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da06029e5914c9ab0800000000000000
+      internalID: -5000049374170947411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_171
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 709
+        width: 48
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7efce38c1759640800000000000000
+      internalID: 5086096459046053797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_172
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 709
+        width: 53
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9480a34ec4e3d10800000000000000
+      internalID: 2107206218765846999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_173
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 661
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c7a82ddabe7a9c0800000000000000
+      internalID: -3915902219181196171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_174
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 656
+        width: 45
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e3e7698f8040120800000000000000
+      internalID: 2379036366928232027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_175
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 660
+        width: 39
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1967a87f80971ac0800000000000000
+      internalID: -3884477207704803043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_176
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 658
+        width: 41
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fea6696e5d22bec0800000000000000
+      internalID: -3552727272523387146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_177
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 663
+        width: 45
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d4becf28744d930800000000000000
+      internalID: 4167034183139151182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_178
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 600
+        width: 43
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cea35ef68956f80800000000000000
+      internalID: -8113911547283444688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_179
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 600
+        width: 62
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf8b627acf357d60800000000000000
+      internalID: 7887280461144887241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_180
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 600
+        width: 45
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500fcf8d7c6f1a100800000000000000
+      internalID: 117646403487723525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_181
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 600
+        width: 42
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3300de6ffd4f3160800000000000000
+      internalID: 7007405304682906428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_182
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 600
+        width: 40
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478a251a6ce4c4c10800000000000000
+      internalID: 2039091346309032052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_183
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bb3c38aafd69e30800000000000000
+      internalID: 4510038000306207551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_184
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 600
+        width: 32
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabef068b1261b9c0800000000000000
+      internalID: -3913238730855421010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_185
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 600
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f4d3cda52e0c5d0800000000000000
+      internalID: -3044184468232515829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_186
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 600
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b0b36b43bb83190800000000000000
+      internalID: -7982424504444187859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_187
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 600
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e06e1071cb993440800000000000000
+      internalID: 4916131723363639522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_188
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 600
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e208652d3877f25d0800000000000000
+      internalID: -3085115811672195026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_189
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 560
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d460f18716783090800000000000000
+      internalID: -8054558090215791402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_190
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 560
+        width: 54
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2686c9ed867ba600800000000000000
+      internalID: 480608137129657902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_191
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 560
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98248b6603050a10800000000000000
+      internalID: 1874908145978189979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_192
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 560
+        width: 41
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5683cc809b83ed0800000000000000
+      internalID: -2433992151156627996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_193
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 560
+        width: 39
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e602ca481462800800000000000000
+      internalID: 587228839497723483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_194
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 560
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b97e0d5c0433a720800000000000000
+      internalID: 2856183816388508083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_195
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 560
+        width: 34
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a9f2794584978a0800000000000000
+      internalID: -6306930275004736901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_196
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 560
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f57ef291babbfc80800000000000000
+      internalID: -8287825417407138312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_197
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 560
+        width: 25
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a075a5677b52fc0800000000000000
+      internalID: -3520205814770497018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_198
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 560
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555995dc2d88e4e90800000000000000
+      internalID: -7039538728563796651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_199
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 560
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac04d6f169d81f70800000000000000
+      internalID: 9158308857034050729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_200
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 560
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48deee6b0d648c7e0800000000000000
+      internalID: -1745066993369813628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_201
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 488
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4b4fda803df1410800000000000000
+      internalID: 1450109639268283573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_202
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 488
+        width: 62
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053e2d895f91161d0800000000000000
+      internalID: -3359375304420039856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_203
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 488
+        width: 49
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d269b27d6c8e44160800000000000000
+      internalID: 7008982860806460973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_204
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 488
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2759325056a9ca0800000000000000
+      internalID: -6009379680026266884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_205
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 488
+        width: 43
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849e46ca54ce2f790800000000000000
+      internalID: -7497670645629261496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_206
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 488
+        width: 55
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfea13875e43f1a0800000000000000
+      internalID: -6776986876493762628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_207
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 488
+        width: 58
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41959a00233528b0800000000000000
+      internalID: -5177675983882972854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_208
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 488
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcb1412ce68beca0800000000000000
+      internalID: -5986542930930582339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_209
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 488
+        width: 45
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76956cbf3871520e0800000000000000
+      internalID: -2295402579443164825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_210
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 430
+        width: 126
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e4a7b0e6c92a090800000000000000
+      internalID: -8024679589567902172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_211
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 444
+        width: 34
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceb3bc1b17dd2800800000000000000
+      internalID: 589363637701033678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_212
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 419
+        width: 35
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2561bfeff00b34890800000000000000
+      internalID: -7474937373756025262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_213
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 396
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf1947c3f66f7930800000000000000
+      internalID: 4143143379410689993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_214
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 396
+        width: 30
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86dfd4354fa04350800000000000000
+      internalID: 5998987415432189582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_215
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 396
+        width: 31
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d118ba2e3c8e130800000000000000
+      internalID: 3596339680762731875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_216
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 396
+        width: 38
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc128ee2167cc850800000000000000
+      internalID: 6398618994269625561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_217
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 396
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d06a7455546a9d20800000000000000
+      internalID: 3286049195772502227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_218
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 396
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb1f4d1ab48b2f80800000000000000
+      internalID: -8130258767396791321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_219
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 396
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7129d6785c3a84fa0800000000000000
+      internalID: -5816218849973005801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_220
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 408
+        width: 35
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd129bae3240ce550800000000000000
+      internalID: 6191328140035957211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_221
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 397
+        width: 35
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3563b7db13442d550800000000000000
+      internalID: 6184080218756167251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_222
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 377
+        width: 35
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6f0df148854b820800000000000000
+      internalID: 2933066581817751207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_223
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 336
+        width: 31
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6be755e69a49f60800000000000000
+      internalID: 8040237526109042400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_224
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 336
+        width: 33
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25bfccd0877ce4a0800000000000000
+      internalID: -6562739161641536214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_225
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 366
+        width: 35
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e136d0bfaae718a0800000000000000
+      internalID: -6334336310566309408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_226
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 336
+        width: 38
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fee9f297f104bf0800000000000000
+      internalID: -342238966329708742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_227
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 355
+        width: 35
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce31bacbd8cf4290800000000000000
+      internalID: -7903877974687924542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_228
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 327
+        width: 33
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87ecba8c9c069f80800000000000000
+      internalID: -8100273013297191030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_229
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 312
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e653092a3af2ac0800000000000000
+      internalID: -3877700835543257458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_230
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 313
+        width: 27
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423b3cc7dbf13af80800000000000000
+      internalID: -8096592806379539676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_231
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 344
+        width: 35
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce8e8e1045923af0800000000000000
+      internalID: -418107712768930100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_232
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 162
+        width: 35
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843bc251235bb1b80800000000000000
+      internalID: -8422939451358137528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_233
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 263
+        width: 136
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139b559b0e19c41b0800000000000000
+      internalID: -5670997436398192335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_234
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 294
+        width: 122
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625718e759de72150800000000000000
+      internalID: 5847903867492201766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_235
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 419
+        width: 12
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f587aeb023b310850800000000000000
+      internalID: 6341414836448688223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_236
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 419
+        width: 9
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafb28ba48e4889b0800000000000000
+      internalID: -5077722248140111957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_237
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 419
+        width: 9
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30ce766717e317d0800000000000000
+      internalID: -2948759243307696069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_238
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 419
+        width: 6
+        height: 14
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334058cd281afcb70800000000000000
+      internalID: 8921526970261767219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_239
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 419
+        width: 10
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01b36fbaf87a3df0800000000000000
+      internalID: -199714215116426997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_240
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 419
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a680997346bf6480800000000000000
+      internalID: -8903697537369602396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_241
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 357
+        width: 47
+        height: 61
+      alignment: 9
+      pivot: {x: 0.8297872, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04f2d998ec2b83d0800000000000000
+      internalID: -3203417332419202034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_242
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 357
+        width: 45
+        height: 62
+      alignment: 9
+      pivot: {x: 0.7777778, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3249d73b2af9f1910800000000000000
+      internalID: 1810341096371098659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_243
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 357
+        width: 50
+        height: 41
+      alignment: 9
+      pivot: {x: 0.82, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaaaa3e0c49427a0800000000000000
+      internalID: -6402829214039758101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_244
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 357
+        width: 50
+        height: 41
+      alignment: 9
+      pivot: {x: 0.82, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea8e67346c3e3d80800000000000000
+      internalID: -8269105464681264409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
