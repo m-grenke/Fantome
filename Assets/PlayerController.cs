@@ -18,13 +18,19 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float jumpSpeed = 256f; //in pixels per second
     [SerializeField]
+    private float wallSlideSpeed = 32f;//in pixels per second
+    [SerializeField]
+    private float wallCheckDistance = 13f;
+    [SerializeField]
     private float slopeCheckDistance;
     [SerializeField]
     private float maxSlopeAngle;
     [SerializeField]
     private Transform groundCheck;
     [SerializeField]
-    private LayerMask whatIsGround;
+    private LayerMask groundMask;
+    [SerializeField]
+    private LayerMask playerMask;
     [SerializeField]
     private PhysicsMaterial2D noFriction;
     [SerializeField]
@@ -40,15 +46,19 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded = false;
     private bool isOnSlope = false;
     private bool isJumping = false;
+    public bool isWallSlide = false;
     private bool canWalkOnSlope = false;
     [SerializeField]
     private bool canJump = false;
+
+    //Physics Vectors
     private Vector2 vel;
     private Vector2 colliderSize;
     private Vector2 slopeNormalPerp;
 
     //Physics references
     private new Rigidbody2D rigidbody;
+    [SerializeField]
     private new CapsuleCollider2D collider;
 
     public float tScale = 1f;
@@ -76,6 +86,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         CheckGround();
+        CheckWall();
         SlopeCheck();
         ApplyMovement();
     }
@@ -97,18 +108,24 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if(rigidbody.velocity.y >= 0)
+            if(isWallSlide)
             {
-                if(input.x != 0)
-                {
-                    animationController.MoveAir();
-                }
+                animationController.WallSlide();
             }
             else
             {
-                animationController.Falling();
-            }
-            
+                if(rigidbody.velocity.y >= 0)
+                {
+                    if(input.x != 0)
+                    {
+                        animationController.MoveAir();
+                    }
+                }
+                else
+                {
+                    animationController.Falling();  
+                }
+            }    
         }
 
         if(Input.GetButtonDown("Jump"))
@@ -117,10 +134,24 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void CheckWall()
+    {
+        isWallSlide = false;
+        if(!isGrounded)
+        {
+            LayerMask nonPlayer = ~playerMask;
+            RaycastHit2D hit = Physics2D.Raycast(PositionOffset(), WallCheckVector(), wallCheckDistance, LayerMask.GetMask("Ground"));
+            if(hit)
+            {
+                isWallSlide = true;
+            }
+        }
+    }
+
     void CheckGround()
     {
         bool lastFrameAir = !isGrounded;
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);
         if(lastFrameAir && isGrounded)
         {
             animationController.Landing();
@@ -152,8 +183,8 @@ public class PlayerController : MonoBehaviour
 
     private void SlopeCheckHorizontal(Vector2 checkPos)
     {
-        RaycastHit2D slopeHitFront = Physics2D.Raycast(checkPos, transform.right, slopeCheckDistance, whatIsGround);
-        RaycastHit2D slopeHitBack = Physics2D.Raycast(checkPos, -transform.right, slopeCheckDistance, whatIsGround);
+        RaycastHit2D slopeHitFront = Physics2D.Raycast(checkPos, transform.right, slopeCheckDistance, groundMask);
+        RaycastHit2D slopeHitBack = Physics2D.Raycast(checkPos, -transform.right, slopeCheckDistance, groundMask);
 
         if(slopeHitFront)
         {
@@ -177,7 +208,7 @@ public class PlayerController : MonoBehaviour
 
     private void SlopeCheckVertical(Vector2 checkPos)
     {
-        RaycastHit2D hit = Physics2D.Raycast(checkPos, Vector2.down, slopeCheckDistance, whatIsGround);
+        RaycastHit2D hit = Physics2D.Raycast(checkPos, Vector2.down, slopeCheckDistance, groundMask);
 
         if(hit)
         {
@@ -231,7 +262,26 @@ public class PlayerController : MonoBehaviour
         //in the air
         else if(!isGrounded)
         {
-            rigidbody.velocity = new Vector2(movementSpeed * input.x, rigidbody.velocity.y);
+            //if against a wall
+            if(isWallSlide)
+            {
+                if(rigidbody.velocity.y < -wallSlideSpeed)
+                {
+                    rigidbody.velocity = new Vector2(0, -wallSlideSpeed);
+                }
+                // else if(rigidbody.velocity.y > wallSlideSpeed)
+                // {
+                //     rigidbody.velocity = new Vector2(0, wallSlideSpeed);
+                // }
+                else
+                {
+                    rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
+                }
+            }
+            else
+            {
+                rigidbody.velocity = new Vector2(movementSpeed * input.x, rigidbody.velocity.y);
+            }
         }
     }
     
@@ -256,9 +306,24 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    Vector2 PositionOffset()
+    {
+        Vector2 offsetPos = (Vector2)transform.position;
+        offsetPos.x += facing * collider.offset.x;
+        offsetPos.y += 1f; //prevent colliding with ground
+        return offsetPos;
+    }
+
+    Vector2 WallCheckVector()
+    {
+        return new Vector2(facing * wallCheckDistance, 0f);
+    }
+
     private void OnDrawGizmos()
     {
         if(groundCheck != null)
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+        //wallSlide check
+        Gizmos.DrawRay(PositionOffset(), WallCheckVector());
     }
 }
