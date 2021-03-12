@@ -18,13 +18,32 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float jumpSpeed = 256f; //in pixels per second
     [SerializeField]
+    private float airAcceleration = 32f;
+    [SerializeField]
+    private float airFriction = 32f;
+    [SerializeField]
+    private float maxAirSpeed = 256f;
+    [SerializeField]
+    private float wallSlideSpeed = 32f;//in pixels per second
+    [SerializeField]
+    private float wallJumpSpeed = 16f;
+    [SerializeField]
+    private float wallSlideFriction = 0.25f;
+    [SerializeField]
+    private float wallCheckDistance = 13f;
+    [SerializeField]
     private float slopeCheckDistance;
     [SerializeField]
     private float maxSlopeAngle;
     [SerializeField]
+    private float gravity = 700f;
+
+    [SerializeField]
     private Transform groundCheck;
     [SerializeField]
-    private LayerMask whatIsGround;
+    private LayerMask groundMask;
+    [SerializeField]
+    private LayerMask playerMask;
     [SerializeField]
     private PhysicsMaterial2D noFriction;
     [SerializeField]
@@ -38,17 +57,24 @@ public class PlayerController : MonoBehaviour
 
     //Physics Bools
     private bool isGrounded = false;
+    [SerializeField]
     private bool isOnSlope = false;
     private bool isJumping = false;
+    public bool isWallSlide = false;
     private bool canWalkOnSlope = false;
     [SerializeField]
     private bool canJump = false;
+    [SerializeField]
+    private bool canWallJump = false;
+
+    //Physics Vectors
     private Vector2 vel;
     private Vector2 colliderSize;
     private Vector2 slopeNormalPerp;
 
     //Physics references
     private new Rigidbody2D rigidbody;
+    [SerializeField]
     private new CapsuleCollider2D collider;
 
     public float tScale = 1f;
@@ -76,6 +102,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         CheckGround();
+        CheckWall();
         SlopeCheck();
         ApplyMovement();
     }
@@ -97,18 +124,24 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if(rigidbody.velocity.y >= 0)
+            if(isWallSlide)
             {
-                if(input.x != 0)
-                {
-                    animationController.MoveAir();
-                }
+                animationController.WallSlide();
             }
             else
             {
-                animationController.Falling();
-            }
-            
+                if(rigidbody.velocity.y >= 0)
+                {
+                    if(input.x != 0)
+                    {
+                        animationController.MoveAir();
+                    }
+                }
+                else
+                {
+                    animationController.Falling();  
+                }
+            }    
         }
 
         if(Input.GetButtonDown("Jump"))
@@ -117,10 +150,29 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void CheckWall()
+    {
+        isWallSlide = false;
+        if(!isGrounded)
+        {
+            LayerMask nonPlayer = ~playerMask;
+            RaycastHit2D hit = Physics2D.Raycast(PositionOffset(), WallCheckVector(), wallCheckDistance, LayerMask.GetMask("Ground"));
+            if(hit)
+            {
+                isWallSlide = true;
+                canWallJump = true;
+            }
+            else
+            {
+                canWallJump = false;
+            }
+        }
+    }
+
     void CheckGround()
     {
         bool lastFrameAir = !isGrounded;
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);
         if(lastFrameAir && isGrounded)
         {
             animationController.Landing();
@@ -152,8 +204,8 @@ public class PlayerController : MonoBehaviour
 
     private void SlopeCheckHorizontal(Vector2 checkPos)
     {
-        RaycastHit2D slopeHitFront = Physics2D.Raycast(checkPos, transform.right, slopeCheckDistance, whatIsGround);
-        RaycastHit2D slopeHitBack = Physics2D.Raycast(checkPos, -transform.right, slopeCheckDistance, whatIsGround);
+        RaycastHit2D slopeHitFront = Physics2D.Raycast(checkPos, transform.right, slopeCheckDistance, groundMask);
+        RaycastHit2D slopeHitBack = Physics2D.Raycast(checkPos, -transform.right, slopeCheckDistance, groundMask);
 
         if(slopeHitFront)
         {
@@ -177,7 +229,7 @@ public class PlayerController : MonoBehaviour
 
     private void SlopeCheckVertical(Vector2 checkPos)
     {
-        RaycastHit2D hit = Physics2D.Raycast(checkPos, Vector2.down, slopeCheckDistance, whatIsGround);
+        RaycastHit2D hit = Physics2D.Raycast(checkPos, Vector2.down, slopeCheckDistance, groundMask);
 
         if(hit)
         {
@@ -217,21 +269,72 @@ public class PlayerController : MonoBehaviour
     
     void ApplyMovement()
     {
-        //on flat ground
-        if (isGrounded && !isOnSlope && !isJumping)
+        //on ground
+        if(isGrounded)
         {
-            rigidbody.velocity = new Vector2(movementSpeed * input.x, 0.0f);
-        }
-        //on sloped ground
-        else if (isGrounded && isOnSlope && canWalkOnSlope && !isJumping)
-        {
-            rigidbody.velocity = new Vector2(movementSpeed * slopeNormalPerp.x * -input.x, 
-                                             movementSpeed * slopeNormalPerp.y * -input.x);
+            //ground is flat
+            if (!isOnSlope && !isJumping)
+            {
+                rigidbody.velocity = new Vector2(movementSpeed * input.x, 0.0f);
+            }
+            //ground is sloped
+            else if (isOnSlope)
+            {
+                //slope too steep to walk on
+                if(!canWalkOnSlope)
+                {
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, rigidbody.velocity.y - (gravity * Time.deltaTime));
+                }
+                else
+                {
+                    //not jumping on slope
+                    if(!isJumping)
+                    {
+                        rigidbody.velocity = new Vector2(movementSpeed * slopeNormalPerp.x * -input.x, 
+                                                        movementSpeed * slopeNormalPerp.y * -input.x);
+                    }
+                }
+            } 
         }
         //in the air
-        else if(!isGrounded)
+        else
         {
-            rigidbody.velocity = new Vector2(movementSpeed * input.x, rigidbody.velocity.y);
+            //if against a wall
+            if(isWallSlide)
+            {
+                rigidbody.velocity = new Vector2(rigidbody.velocity.x, (rigidbody.velocity.y - gravity * Time.deltaTime) );
+
+                if(rigidbody.velocity.y < -wallSlideSpeed)
+                {
+                    rigidbody.velocity = new Vector2(0, -wallSlideSpeed);
+                }
+                // else if(rigidbody.velocity.y > wallSlideSpeed)
+                // {
+                //     rigidbody.velocity = new Vector2(0, wallSlideSpeed);
+                // }
+                else
+                {
+                    rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
+                }
+            }
+            //handle air movement
+            else
+            {
+                //change in x-velocity gradual
+                rigidbody.velocity = new Vector2((rigidbody.velocity.x + (input.x * Time.deltaTime * airAcceleration)), rigidbody.velocity.y - (gravity * Time.deltaTime));
+
+                //apply air friction
+                if(rigidbody.velocity.sqrMagnitude >= airFriction)
+                {
+                    //rigidbody.velocity -= new Vector2(facing * airFriction * Time.deltaTime, 0f);
+                }
+
+                //hard cap on air speed
+                if(Mathf.Abs(rigidbody.velocity.x) > maxAirSpeed)
+                {
+                    rigidbody.velocity = new Vector2(facing * maxAirSpeed, rigidbody.velocity.y);
+                }
+            }
         }
     }
     
@@ -242,13 +345,27 @@ public class PlayerController : MonoBehaviour
         {
             canJump = false;
             isJumping = true;
-            rigidbody.velocity = new Vector2(0f, jumpSpeed);
-            animationController.Jump();
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpSpeed);
         }
+        else if (canWallJump)
+        {
+            canWallJump = false;
+            isJumping = true;
+
+            //flip sprite and push away to unlock from wall
+            facing *= -1;
+            transform.localScale = new Vector3(facing, transform.localScale.y, transform.localScale.z);
+            transform.position += new Vector3(facing * 8, 0, 0);
+
+            //since sprite is flipped, jump in the direction currently facing
+            rigidbody.velocity = new Vector2(wallJumpSpeed * facing, jumpSpeed);
+        }
+        animationController.Jump();
     }
     void SpriteFlip()
     {
-        if((facing == -1 && input.x > 0f) || (facing == 1 && input.x < 0f))
+        //if((facing == -1 && input.x > 0f) || (facing == 1 && input.x < 0f))
+        if((facing == -1 && rigidbody.velocity.x > 0f) || (facing == 1 && rigidbody.velocity.x < 0f))
         {
             facing *= -1;
             transform.localScale = new Vector3(facing, transform.localScale.y, transform.localScale.z);
@@ -256,9 +373,24 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    Vector2 PositionOffset()
+    {
+        Vector2 offsetPos = (Vector2)transform.position;
+        offsetPos.x += facing * collider.offset.x;
+        offsetPos.y += 1f; //prevent colliding with ground
+        return offsetPos;
+    }
+
+    Vector2 WallCheckVector()
+    {
+        return new Vector2(facing * wallCheckDistance, 0f);
+    }
+
     private void OnDrawGizmos()
     {
         if(groundCheck != null)
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+        //wallSlide check
+        Gizmos.DrawRay(PositionOffset(), WallCheckVector());
     }
 }

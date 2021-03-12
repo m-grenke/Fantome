@@ -43,6 +43,7 @@ public class AnimationController : MonoBehaviour
     private Clip MOVE_AIR2 = new Clip("MoveAir2", AnimType.Air);
     
     private Clip FALLING = new Clip("Falling", AnimType.Air);
+    private Clip WALLSLIDE = new Clip("WallSlide", AnimType.Air);
     private Clip LANDING = new Clip("Landing", AnimType.Idle);
     private Clip currentState;
     public string stateName;
@@ -117,6 +118,9 @@ public class AnimationController : MonoBehaviour
                     break;
                 case "Falling":
                     FALLING.length = clip.length / animSpeedMultipler;
+                    break;
+                case "WallSlide":
+                    WALLSLIDE.length = clip.length / animSpeedMultipler;
                     break;
                 case "Landing":
                     LANDING.length = clip.length / animSpeedMultipler;
@@ -201,6 +205,11 @@ public class AnimationController : MonoBehaviour
     public void Falling()
     {
         ChangeAnimationState(FALLING);
+    }
+
+    public void WallSlide()
+    {
+        ChangeAnimationState(WALLSLIDE);
     }
 
     public void Landing()
