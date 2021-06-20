@@ -737,6 +737,12 @@ TextureImporter:
   - first:
       213: -8269105464681264409
     second: CVSOTN_Alucard_242
+  - first:
+      213: -8123470321464828582
+    second: CVSOTN_Alucard_245
+  - first:
+      213: 2658268998076931252
+    second: CVSOTN_Alucard_246
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -5966,6 +5972,48 @@ TextureImporter:
       bones: []
       spriteID: 7ea8e67346c3e3d80800000000000000
       internalID: -8269105464681264409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_245
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 276
+        width: 26
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4615385, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d19a958c2a34f80800000000000000
+      internalID: -8123470321464828582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSOTN_Alucard_246
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 276
+        width: 28
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc1fc3d19114e420800000000000000
+      internalID: 2658268998076931252
       vertices: []
       indices: 
       edges: []

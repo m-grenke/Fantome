@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     private float wallSlideFriction = 0.25f;
     [SerializeField]
     private float wallCheckDistance = 13f;
+    public float wallSlideFallThreshold;
     [SerializeField]
     private float slopeCheckDistance;
     [SerializeField]
@@ -56,6 +57,7 @@ public class PlayerController : MonoBehaviour
     private float facing = 1f;
 
     //Physics Bools
+    [SerializeField]
     private bool isGrounded = false;
     [SerializeField]
     private bool isOnSlope = false;
@@ -110,9 +112,9 @@ public class PlayerController : MonoBehaviour
     void CheckInput()
     {
         input = new Vector2((Input.GetAxisRaw("Horizontal")), Input.GetAxisRaw("Vertical"));
-        SpriteFlip();
         if(isGrounded)
         {
+            ForceSpriteFlip();
             if(input.x == 0)
             {
                 animationController.Idle();
@@ -126,10 +128,22 @@ public class PlayerController : MonoBehaviour
         {
             if(isWallSlide)
             {
-                animationController.WallSlide();
+                if(rigidbody.velocity.y > 0)
+                {
+                  animationController.WallSlideUp();
+                }
+                else if(rigidbody.velocity.y < -wallSlideFallThreshold)
+                {
+                    animationController.WallSlideDown();
+                }
+                else
+                {
+                    animationController.WallSlideMid();
+                }
             }
             else
             {
+                MoveSpriteFlip();
                 if(rigidbody.velocity.y >= 0)
                 {
                     if(input.x != 0)
@@ -172,10 +186,44 @@ public class PlayerController : MonoBehaviour
     void CheckGround()
     {
         bool lastFrameAir = !isGrounded;
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);
-        if(lastFrameAir && isGrounded)
+        RaycastHit2D groundCheckCircle = Physics2D.CircleCast(groundCheck.position, groundCheckRadius, Vector2.zero, 0f, (int)groundMask);
+
+        //if the overlap with the ground is very slight, push the player away from the contact point to force into a fall state
+        //this is kind of a quick hack
+        if(groundCheckCircle)
+        {               
+            //check the ground in a slightly more narrow (groundCheckPixelOffset difference) way, to see if the character needs to be budged away from a ledge
+            //TODO?: instead of budge away, change to auto ledge grab?
+
+            float groundCheckPixelOffset = 2f; 
+            bool leftGround = Physics2D.Raycast(groundCheck.position - new Vector3(groundCheckRadius - groundCheckPixelOffset,0,0), Vector2.down, groundCheckRadius, groundMask);
+            bool rightGround = Physics2D.Raycast(groundCheck.position + new Vector3(groundCheckRadius - groundCheckPixelOffset,0,0), Vector2.down, groundCheckRadius, groundMask);
+
+            //if neither leftGround nor rightGround detect ground, that means we're just barely on a ledge and should just fall
+            if(!leftGround && !rightGround)
+            {
+                isGrounded = false;
+
+                //find x-difference between position and collision point
+                float collisionOffsetX = transform.position.x - groundCheckCircle.point.x;
+                transform.position += new Vector3(Mathf.Sign(collisionOffsetX)*groundCheckPixelOffset, 0f, 0f);
+            }
+            //else, we're probably grounded adequately and can continue as normal
+            else
+            {
+                isGrounded = true;
+            }
+        }
+        else
         {
-            animationController.Landing();
+            isGrounded = false;
+        }
+        
+
+        if(isGrounded)
+        {
+            if(lastFrameAir)
+                animationController.Landing();
         }
 
         vel = rigidbody.velocity;
@@ -302,7 +350,7 @@ public class PlayerController : MonoBehaviour
             //if against a wall
             if(isWallSlide)
             {
-                rigidbody.velocity = new Vector2(rigidbody.velocity.x, (rigidbody.velocity.y - gravity * Time.deltaTime) );
+                rigidbody.velocity = new Vector2(0, (rigidbody.velocity.y - gravity * Time.deltaTime) );
 
                 if(rigidbody.velocity.y < -wallSlideSpeed)
                 {
@@ -346,10 +394,13 @@ public class PlayerController : MonoBehaviour
             canJump = false;
             isJumping = true;
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpSpeed);
+            
+            animationController.Jump();
         }
         else if (canWallJump)
         {
             canWallJump = false;
+            isWallSlide = false;
             isJumping = true;
 
             //flip sprite and push away to unlock from wall
@@ -359,12 +410,21 @@ public class PlayerController : MonoBehaviour
 
             //since sprite is flipped, jump in the direction currently facing
             rigidbody.velocity = new Vector2(wallJumpSpeed * facing, jumpSpeed);
+            
+            animationController.Jump();
         }
-        animationController.Jump();
     }
-    void SpriteFlip()
+    void ForceSpriteFlip()
     {
-        //if((facing == -1 && input.x > 0f) || (facing == 1 && input.x < 0f))
+        if((facing == -1 && input.x > 0f) || (facing == 1 && input.x < 0f))
+        {
+            facing *= -1;
+            transform.localScale = new Vector3(facing, transform.localScale.y, transform.localScale.z);
+            animationController.Turn();
+        }
+    }
+    void MoveSpriteFlip()
+    {
         if((facing == -1 && rigidbody.velocity.x > 0f) || (facing == 1 && rigidbody.velocity.x < 0f))
         {
             facing *= -1;

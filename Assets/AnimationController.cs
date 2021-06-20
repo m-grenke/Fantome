@@ -43,7 +43,9 @@ public class AnimationController : MonoBehaviour
     private Clip MOVE_AIR2 = new Clip("MoveAir2", AnimType.Air);
     
     private Clip FALLING = new Clip("Falling", AnimType.Air);
-    private Clip WALLSLIDE = new Clip("WallSlide", AnimType.Air);
+    private Clip WALLSLIDEUP = new Clip("WallSlideUp", AnimType.Air);
+    private Clip WALLSLIDEMID = new Clip("WallSlideMid", AnimType.Air);
+    private Clip WALLSLIDEDOWN = new Clip("WallSlideDown", AnimType.Air);
     private Clip LANDING = new Clip("Landing", AnimType.Idle);
     private Clip currentState;
     public string stateName;
@@ -68,6 +70,11 @@ public class AnimationController : MonoBehaviour
         {
             Debug.Log(currentState.name);
         }
+    }
+
+    public bool IsJump()
+    {
+        return currentState == JUMP;
     }
 
     void PlayQueuedState()
@@ -119,8 +126,11 @@ public class AnimationController : MonoBehaviour
                 case "Falling":
                     FALLING.length = clip.length / animSpeedMultipler;
                     break;
-                case "WallSlide":
-                    WALLSLIDE.length = clip.length / animSpeedMultipler;
+                case "WallSlide1":
+                    WALLSLIDEUP.length = clip.length / animSpeedMultipler;
+                    break;
+                case "WallSlide2":
+                    WALLSLIDEDOWN.length = clip.length / animSpeedMultipler;
                     break;
                 case "Landing":
                     LANDING.length = clip.length / animSpeedMultipler;
@@ -132,6 +142,8 @@ public class AnimationController : MonoBehaviour
     {
         //guard the current animation from interrupting itself
         if(currentState == newState || newState == null) return;
+
+        animator.StopPlayback();
 
         //play the animation
         animator.Play(newState.id);
@@ -186,7 +198,8 @@ public class AnimationController : MonoBehaviour
 
     public void Jump()
     {
-        ChangeAnimationState(JUMP);
+        if(currentState != FALLING && currentState != MOVE_AIR && currentState != MOVE_AIR2)
+            ChangeAnimationState(JUMP);
     }
 
     public void MoveAir()
@@ -207,9 +220,17 @@ public class AnimationController : MonoBehaviour
         ChangeAnimationState(FALLING);
     }
 
-    public void WallSlide()
+    public void WallSlideUp()
     {
-        ChangeAnimationState(WALLSLIDE);
+        ChangeAnimationState(WALLSLIDEUP);
+    }
+    public void WallSlideMid()
+    {
+        ChangeAnimationState(WALLSLIDEMID);
+    }
+    public void WallSlideDown()
+    {
+        ChangeAnimationState(WALLSLIDEDOWN);
     }
 
     public void Landing()
